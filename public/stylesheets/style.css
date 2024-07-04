@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+
+
+.container{
+   width: 100vw;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+
+.task-container {
+    margin: 100px;
+    background-color: rgb(26, 99, 121);
+    padding: 50px 100px;
+    border-radius:20px ;
+    height: 100%;
+    max-width: 40vw;
+  
+}
+
+.task-container input {
+        padding: 10px 40px;
+        border-radius: 10px;
+}
+
+.task-container button {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.is-completed{
+    text-decoration: line-through;
+}
+
+.view-all-task{
+    word-break: break-word;
+
+
+    width: 100%; 
+  
+}
+
+.view-all-task:hover{
+
+}
